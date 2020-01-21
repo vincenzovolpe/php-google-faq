@@ -1,0 +1,39 @@
+footer {
+    background: #f5f5f5;
+    border-top: 1px solid #eee;
+    font-size: 11px;
+    line-height: 2.19;
+    list-style: none;
+    padding: 10px 15px 10px 15px;
+
+    .container {
+        display: flex;
+        max-width: 978px;
+        margin: 0 auto;
+        padding: 0 32px 0 32px;
+
+        ul {
+            display: flex;
+            font-size: 11px;
+            list-style: none;
+
+            li {
+                &:not(:first-child)::before {
+                    content: "\0000b7";
+                    padding: 0 5px;
+                }
+                a {
+                    color: rgba(61,61,61,.8);
+                    text-decoration: none;
+                }
+            }
+        }
+
+        img {
+            margin-left: auto;
+            padding: 5px;
+        }
+
+    }
+
+}

@@ -11,11 +11,11 @@ header {
         display: flex;
         h2 {
             margin: 0 7px;
-            color: #5f6368;
             font-family: "product sans","open sans",arial,sans-serif;
             font-weight: 400;
             a {
                 text-decoration: none;
+                color: #5f6368;
             }
         }
     }
@@ -27,8 +27,6 @@ header {
             padding: 15px 15px 0 0;
 
             li {
-                font-size: 15px;
-                font-weight: 500;
                 margin: 0 42px 0 0;
 
                 &:last-child {
@@ -41,6 +39,8 @@ header {
                     color: #5f6368;
                     padding: 0 0 6px 0;
                     display: inline-block;
+                    font-size: 15px;
+                    font-weight: 500;
                 }
             }
         }
