@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.54;
+}
+
+header {
+  background: #fff;
+  position: fixed;
+  padding: 24px 24px 0 24px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+  width: 100%;
+  z-index: 2000;
+  top: 0;
+}
+
+header .header-top {
+  display: -webkit-box;
+  display: flex;
+}
+
+header .header-top h2 {
+  margin: 0 7px;
+  color: #5f6368;
+  font-family: "product sans", "open sans", arial, sans-serif;
+  font-weight: 400;
+}
+
+header .header-top h2 a {
+  text-decoration: none;
+}
+
+header .header-bottom ul {
+  display: -webkit-box;
+  display: flex;
+  list-style: none;
+  padding: 15px 15px 0 0;
+}
+
+header .header-bottom ul li {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 42px 0 0;
+}
+
+header .header-bottom ul li:last-child {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+header .header-bottom ul li a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+header .header-bottom .selezione {
+  color: #3367d6;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #3367d6;
+}
+
+header .header-bottom .sticker {
+  min-height: 108px;
+}
+
+main {
+  margin-top: 108px;
+}
+
+main .container {
+  max-width: 978px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 32px;
+}
+
+main h2 {
+  color: #3c4043;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  padding: 64px 0 0 0;
+}
+
+main p {
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  padding-top: 20px;
+  margin: 10px 0;
+}
+
